@@ -13,8 +13,7 @@ $(call inherit-product, device/xiaomi/spes/device.mk)
 
 # Inherit some common xdroidOSS stuff.
 $(call inherit-product, vendor/xdroid/config/common.mk)
-XDROID_MAINTAINER := frostg012
-XDROID_BOOT := 720
+XDROID_BOOT := 1080
 
 # Product Specifics
 PRODUCT_NAME := xdroid_spes
